@@ -1,0 +1,12 @@
+
+
+This archive contains the distribution Sub-Exporter-ForMethods, version
+0.091810:
+
+  helper routines for using Sub::Exporter to build methods
+
+This software is copyright (c) 2009 by Ricardo Signes.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as perl itself.
+

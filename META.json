@@ -1,0 +1,21 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/rjbs/sub-exporter-formethods/tree"
+   },
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "generated_by" : "Dist::Zilla::Plugin::MetaJSON version 1.091480",
+   "version" : "0.091810",
+   "name" : "Sub-Exporter-ForMethods",
+   "author" : [
+      "Ricardo Signes <rjbs@cpan.org>"
+   ],
+   "license" : "perl",
+   "requires" : {
+      "Sub::Exporter" : "0.978",
+      "Sub::Name" : "0"
+   },
+   "abstract" : "helper routines for using Sub::Exporter to build methods"
+}

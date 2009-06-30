@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST
+META.json
+Makefile.PL
+README
+dist.ini
+lib/Sub/Exporter/ForMethods.pm
+t/autoclean.t
+t/carp.t
+t/lib/TestDexp.pm
+t/lib/TestMexp.pm
