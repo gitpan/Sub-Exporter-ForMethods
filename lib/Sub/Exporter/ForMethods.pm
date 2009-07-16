@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Sub::Exporter::ForMethods;
-our $VERSION = '0.091810';
+our $VERSION = '0.091970';
 
 # ABSTRACT: helper routines for using Sub::Exporter to build methods
 
@@ -45,7 +45,7 @@ Sub::Exporter::ForMethods - helper routines for using Sub::Exporter to build met
 
 =head1 VERSION
 
-version 0.091810
+version 0.091970
 
 =head1 SYNOPSIS
 

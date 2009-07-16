@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package TestMexp;
-our $VERSION = '0.091810';
+our $VERSION = '0.091970';
 
 
 use Sub::Exporter::ForMethods qw(method_installer);

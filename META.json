@@ -6,8 +6,8 @@
       "version" : 1.4,
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
-   "generated_by" : "Dist::Zilla::Plugin::MetaJSON version 1.091480",
-   "version" : "0.091810",
+   "generated_by" : "Dist::Zilla::Plugin::MetaJSON version 1.091940",
+   "version" : "0.091970",
    "name" : "Sub-Exporter-ForMethods",
    "author" : [
       "Ricardo Signes <rjbs@cpan.org>"
