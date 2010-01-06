@@ -1,6 +1,7 @@
 LICENSE
 MANIFEST
 META.json
+META.yml
 Makefile.PL
 README
 dist.ini
@@ -9,3 +10,5 @@ t/autoclean.t
 t/carp.t
 t/lib/TestDexp.pm
 t/lib/TestMexp.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t

@@ -1,0 +1,17 @@
+---
+abstract: 'helper routines for using Sub::Exporter to build methods'
+author:
+  - 'Ricardo Signes <rjbs@cpan.org>'
+generated_by: 'Dist::Zilla version 1.100060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Sub-Exporter-ForMethods
+requires:
+  ExtUtils::MakeMaker: 6.11
+  Sub::Exporter: 0.978
+  Sub::Name: 0
+resources:
+  repository: http://github.com/rjbs/sub-exporter-formethods
+version: 0.100050

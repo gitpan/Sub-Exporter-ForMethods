@@ -1,8 +1,7 @@
 use strict;
 use warnings;
 package TestDexp;
-our $VERSION = '0.091970';
-
+our $VERSION = '0.100050';
 
 use Sub::Exporter -setup => {
   exports   => [ qw(foo) ],
