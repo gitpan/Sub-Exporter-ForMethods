@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package TestMexp;
-our $VERSION = '0.100050';
 
 use Sub::Exporter::ForMethods qw(method_installer);
 use Sub::Exporter -setup => {

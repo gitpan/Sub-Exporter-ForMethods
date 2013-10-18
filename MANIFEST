@@ -1,3 +1,4 @@
+Changes
 LICENSE
 MANIFEST
 META.json
@@ -6,9 +7,11 @@ Makefile.PL
 README
 dist.ini
 lib/Sub/Exporter/ForMethods.pm
+t/00-compile.t
+t/000-report-versions-tiny.t
 t/autoclean.t
 t/carp.t
 t/lib/TestDexp.pm
 t/lib/TestMexp.pm
-t/release-pod-coverage.t
-t/release-pod-syntax.t
+xt/release/changes_has_content.t
+xt/release/pod-syntax.t

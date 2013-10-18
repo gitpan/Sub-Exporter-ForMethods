@@ -1,12 +1,14 @@
 use strict;
 use warnings;
 package Sub::Exporter::ForMethods;
-our $VERSION = '0.100050';
+{
+  $Sub::Exporter::ForMethods::VERSION = '0.100051';
+}
 # ABSTRACT: helper routines for using Sub::Exporter to build methods
 
 use Sub::Name ();
 
-use Sub::Exporter -setup => {
+use Sub::Exporter 0.978 -setup => {
   exports => [ qw(method_installer) ],
 };
 
@@ -35,6 +37,7 @@ sub method_installer {
 1;
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -43,7 +46,7 @@ Sub::Exporter::ForMethods - helper routines for using Sub::Exporter to build met
 
 =head1 VERSION
 
-version 0.100050
+version 0.100051
 
 =head1 SYNOPSIS
 
@@ -114,14 +117,13 @@ default Sub::Exporter installer.
 
 =head1 AUTHOR
 
-  Ricardo Signes <rjbs@cpan.org>
+Ricardo Signes <rjbs@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Ricardo Signes.
+This software is copyright (c) 2013 by Ricardo Signes.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
